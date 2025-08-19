@@ -1,3 +1,8 @@
+# A diferencia del mismo Programa con Audio este consume un hilo de stream y ram en la transmision, opcional usar pegar el link del stream 
+# a la ruta de google y ahi comprobar la eficiencia de la IA OPEN AI WHISPER
+# 2MEJOR CODIGO: Captura fragmentos en tiempo real y lo graba cada 5 segundos usando ffmpeg que graba en fragmentos (instalarlo desde el comprimido)
+# Usando Open AI Whisper tiene cierto nivel de exactitud y mejorar los filtros para la transcripcion en tiempo real, incluye en codigo el historial
+# Pero aveces tiene error la IA
 import subprocess
 import tempfile
 import os
@@ -173,4 +178,5 @@ if __name__ == "__main__":
                 print("🔈 Reproducción detenida.")
             except Exception:
                 pass
+
         print("Proceso finalizado.")
